@@ -1,0 +1,22 @@
+body {
+  background: #c7d0d2;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+}
+.card {
+  width: 18rem;
+  cursor: pointer;
+}
+.card-rotate {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 18rem;
+  height: 20rem;
+  transform: rotateY(360deg);
+}
